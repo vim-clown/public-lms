@@ -11,4 +11,4 @@
 
 mfw you run the project to modify it and suit your needs <br>
 
-<img src = "LibrarySystem/Resources/W.jpg" height = "150px" width = "150px">
+<ul> <img src = "LibrarySystem/Resources/W.jpg" height = "150px" width = "180px"> </ul>
