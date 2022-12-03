@@ -9,6 +9,6 @@
 <ol> Go to admin page and create a new database ("dblibrary"). </ol>
 <ol> Import dblibrary.sql in the project root folder. </ol> <br>
 
-mfw you run the project to modify it and suit your needs <br>
+<h4> mfw you run the project and modify it to suit your needs </ol> <br>
 
-<ul> <img src = "LibrarySystem/Resources/W.jpg" height = "150px" width = "180px"> </ul>
+<ul> <img src = "LibrarySystem/Resources/W.jpg" height = "150px" width = "175px"> </ul>
