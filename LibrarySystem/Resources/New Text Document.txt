@@ -1,0 +1,40 @@
+==========================iWeb makers [iwebmakers.ml]=========================
+
+How to Send Emails in C# with Modern UI design Visual Studio (2015).
+Downloaded from : http://sourcecodes.iwebmakers.ml/
+Video : https://youtu.be/vYDyGxoq9JU
+
+===============================Connect with Us==================================
+
+Site :iwebmakers.ml
+Facebook : https://www.facebook.com/iweb.makers.3
+YouTube : https://www.youtube.com/channel/UCiZ818fpn8OGBWu1f95NEHQ
+instagram : https://www.instagram.com/iwebmakers/
+Linkedin : https://www.linkedin.com/in/iewb-makers-357932198/
+
+==================================Source Code===================================
+
+
+
+----Add this to your top of your program----
+
+	using System.Runtime.InteropServices;
+
+----Add this to your public partial class (Your Form name) : Form----
+
+        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
+
+       	 private static extern IntPtr CreateRoundRectRgn
+         (
+        	  int nLeftRect,
+        	  int nTopRect,
+        	  int nRightRect,
+        	  int nBottomRect,
+        	  int nWidthEllipse,
+       		  int nHeightEllipse
+
+          );
+
+----Add this after your InitializeComponent(); of the program----
+
+	Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 25, 25));
