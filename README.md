@@ -10,5 +10,6 @@
 <ol> Import dblibrary.sql in the project root folder. </ol> <br>
 
 <h4> mfw you run the project and modify it to suit your needs <br>
-
+<br>
+<br>
 <ul> <img src = "LibrarySystem/Resources/W.jpg" height = "150px" width = "175px"> </ul>
