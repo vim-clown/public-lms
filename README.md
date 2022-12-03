@@ -1,5 +1,5 @@
 # Public Library Management System
-<h4> - Requirements </h4>
+<h4> Requirements </h4>
 <ul> - Visual Studio 2022 </ul>
 <ul> - XAMPP </ul> <br>
 
